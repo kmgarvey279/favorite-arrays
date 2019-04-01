@@ -19,5 +19,9 @@ newArray.push(favoriteThings[1])
 newArray.push(favoriteThings[0])
 newArray.push(favoriteThings[2])
 alert(newArray);
+$("#colorResult").empty().append(newArray[0]);
+$("#animalResult").empty().append(newArray[2]);
+$("#foodResult").empty().append(newArray[1]);
+
 });
 });
